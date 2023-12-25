@@ -1,0 +1,8 @@
+.Comments { 
+    flex-wrap: wrap;
+    &-item {
+        padding: 20px;
+        border: 1px solid lightgray;
+        width: calc(25% - 18px);
+    }
+}

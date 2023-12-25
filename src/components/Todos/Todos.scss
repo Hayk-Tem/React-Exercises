@@ -1,0 +1,8 @@
+.Todos {
+    flex-wrap: wrap;
+    &-item {
+        padding: 20px;
+        border: 2px solid lightgray;
+        width: calc(33% - 18px);
+    }
+}

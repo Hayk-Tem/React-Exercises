@@ -1,0 +1,11 @@
+.Users {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+
+    &-item {
+        padding: 20px;
+        border: 1px solid lightgray;
+    }
+}

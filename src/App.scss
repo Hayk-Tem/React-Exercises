@@ -1,0 +1,42 @@
+.App {
+    &-buttons {
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        background-color: #333;
+        
+        & > button {
+            border: none;
+            outline: none;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            font-size: 20px;
+
+            &.active {
+                background-color: orangered;
+
+            }
+
+            &:hover {
+                cursor: pointer;
+                background-color: orange;
+            }
+
+            // &:focus {
+            //     background-color: orangered;
+            // }
+
+        }
+    }
+}
+
+
+.Users,
+.Comments,
+.Posts,
+.Todos {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
